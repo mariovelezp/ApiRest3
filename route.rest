@@ -1,0 +1,22 @@
+POST http://localhost:3005/api/user/register
+Content-Type: application/json
+
+{
+  "name": "Ana Velez",
+  "email": "anavelezp@gmail.com",
+  "password": "16222245"
+}
+
+##########################################
+POST http://localhost:3005/api/user/login
+Content-Type: application/json
+
+{
+  "email": "anavelezp@gmail.com",
+  "password": "16222245"
+}
+
+##########################################
+GET http://localhost:3005/api/posts
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDVmZjhmNWNiOGJlYzFhOGMwYjUxODUiLCJpYXQiOjE2MTY5MDI1Mjl9.GRSJvmFUx3XQ1c8uQOIZaSLycRswL45PdX3R1Wdl0H4
+
